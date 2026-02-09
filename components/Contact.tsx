@@ -34,7 +34,7 @@ export default function Contact() {
             Start a Conversation
           </h2>
           <p className="text-xl sm:text-2xl text-black/80 leading-relaxed text-left">
-            Tell us about your project or business needs. We'll respond promptly.
+            Tell us about your project or business needs. We&apos;ll respond promptly.
           </p>
         </div>
 
