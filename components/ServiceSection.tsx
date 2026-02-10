@@ -29,7 +29,7 @@ export default function ServiceSection({
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <FadeIn>
           <div
-            className={`grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center ${
+            className={`grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start ${
               reverse ? "lg:flex-row-reverse" : ""
             }`}
           >

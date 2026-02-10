@@ -17,6 +17,20 @@ const servicesData = [
     backgroundColor: "white" as const,
     reverse: false,
     hideCapabilities: false,
+    visualPlaceholder: (
+      <div className="relative w-full aspect-[4/3] border border-black/10 rounded-sm overflow-hidden bg-black">
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="h-full w-full object-cover"
+        >
+          <source src="/constructionvideo.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    ),
   },
   {
     title: "Software Development",
@@ -68,6 +82,7 @@ export default function Services() {
           capabilities={service.capabilities}
           quote={service.quote}
           hideCapabilities={service.hideCapabilities}
+          visualPlaceholder={service.visualPlaceholder}
           backgroundColor={service.backgroundColor}
           reverse={service.reverse}
         />
