@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import Button from "@/components/ui/Button";
 
 export default function Header() {
@@ -18,9 +19,21 @@ export default function Header() {
           {/* Logo */}
           <Link
             href="/"
-            className="text-2xl font-bold tracking-tight hover:opacity-80 transition-all duration-150"
+            className="flex items-center gap-3 hover:opacity-80 transition-all duration-150"
           >
-            THE SHICO GROUP
+            <div className="relative h-12 w-12 sm:h-14 sm:w-14">
+              <Image
+                src="/shicologo.jpeg"
+                alt="The Shico Group logo"
+                fill
+                sizes="56px"
+                className="object-contain"
+                priority
+              />
+            </div>
+            <span className="text-xl sm:text-2xl font-bold tracking-tight">
+              THE SHICO GROUP
+            </span>
           </Link>
 
         {/* Desktop Navigation */}
