@@ -11,7 +11,7 @@ const servicesData: {
   hideCapabilities?: boolean;
   visualPlaceholder?: React.ReactNode;
   splitCapabilitiesAcrossColumns?: boolean;
-  titleAccent?: "left-line";
+  titleAccent?: "left-line" | "right-line";
 }[] = [
   {
     title: "Construction",
