@@ -144,7 +144,7 @@ const servicesData: {
     backgroundColor: "gray" as const,
     reverse: true,
     visualPlaceholder: (
-      <div className="relative w-full aspect-[4/3] border border-black/10 rounded-sm overflow-hidden bg-black">
+      <div className="relative w-full aspect-square border border-black/10 rounded-sm overflow-hidden bg-black">
         <video
           autoPlay
           muted
