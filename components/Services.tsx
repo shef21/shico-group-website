@@ -143,6 +143,20 @@ const servicesData: {
     ],
     backgroundColor: "gray" as const,
     reverse: true,
+    visualPlaceholder: (
+      <div className="relative w-full aspect-[4/3] border border-black/10 rounded-sm overflow-hidden bg-black">
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="h-full w-full object-cover"
+        >
+          <source src="/mediavideo.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    ),
   },
 ];
 
