@@ -130,24 +130,16 @@ const servicesData: {
   },
   {
     title: "Media & Marketing",
+    quote: "Elite Media & Marketing for Brands That Lead",
     description:
-      "Integrated marketing strategies that amplify your brand and drive measurable results. We create compelling campaigns that connect with your audience and deliver ROI across all channels.",
+      "With just six years in the industry, The Shico Group has risen to the top, delivering strategic media, high-end content, and performance marketing that sets brands apart. We work with world-class clients such as Tyla, Table Mountain Aerial Cableway Company, Cape Royal Yacht Club, and Veldskoen.\n\nWe combine creative storytelling with data-driven marketing strategy to ensure every campaign delivers visibility, credibility, and measurable results.\n\nWith The Shico Group, media and marketing no longer feels chaotic or overwhelming. You gain clarity, confidence, and momentum, knowing your brand is represented at the highest level. Every campaign is intentional, every strategy precise — giving you the peace of mind that your brand is leading, not following.",
     capabilities: [
-      {
-        title: "Campaign strategy & delivery",
-        description:
-          "Integrated campaigns planned and executed across the right channels.",
-      },
-      {
-        title: "Brand positioning",
-        description:
-          "Clear, consistent messaging that supports market entry and growth.",
-      },
-      {
-        title: "Measurement & optimisation",
-        description:
-          "Reporting and iteration focused on outcomes, not vanity metrics.",
-      },
+      { title: "Strategic Brand Positioning" },
+      { title: "High-End Content Production" },
+      { title: "Performance Advertising" },
+      { title: "Digital Marketing Systems" },
+      { title: "Creative Campaign Development" },
+      { title: "Analytics & Optimization" },
     ],
     backgroundColor: "gray" as const,
     reverse: true,
