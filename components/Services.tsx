@@ -113,12 +113,17 @@ const servicesData: {
     backgroundColor: "white" as const,
     reverse: false,
     visualPlaceholder: (
-      <div className="relative w-full max-w-xs sm:max-w-sm mx-auto aspect-[9/16] border border-black/10 rounded-sm overflow-hidden bg-gradient-to-br from-gray-50 to-gray-100">
-        <div className="absolute inset-0 flex items-center justify-center">
-          <span className="text-black/30 text-xs tracking-wide uppercase">
-            Visual Placeholder
-          </span>
-        </div>
+      <div className="relative w-full max-w-xs sm:max-w-sm mx-auto aspect-[9/16] border border-black/10 rounded-sm overflow-hidden bg-black">
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="h-full w-full object-cover"
+        >
+          <source src="/businessvideo.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </div>
     ),
     titleAccent: "right-line",
